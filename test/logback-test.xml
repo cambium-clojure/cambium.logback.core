@@ -1,0 +1,35 @@
+<configuration debug="false">
+
+  <turboFilter class="cambium.logback.core.StrategyTurboFilter">
+    <name>mdcStrategy</name>
+  </turboFilter>
+
+  <turboFilter class="cambium.logback.core.StrategyTurboFilter">
+    <name>multiStrategy</name>
+  </turboFilter>
+
+  <appender name="DUMMY" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>Dummy - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+    <if condition='property("enable.dummy").equalsIgnoreCase("true")'>
+      <then>
+        <appender-ref ref="DUMMY" />
+      </then>
+    </if>
+  </root>
+</configuration>
