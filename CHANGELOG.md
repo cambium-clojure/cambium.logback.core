@@ -2,7 +2,7 @@
 
 ## [WIP] 0.4.2 / 2018-March-??
 
-- [Todo] Upgrade Janino version to `3.0.8`
+- Upgrade Janino version to `3.0.8`
 - [Todo] Add fn to deinit Logback in `util.clj`
 
 
