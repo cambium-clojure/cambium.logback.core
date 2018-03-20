@@ -13,6 +13,12 @@
     [ch.qos.logback.classic LoggerContext]))
 
 
+(defn find-logger-context
+  "Return current logger-context."
+  ^LoggerContext []
+  (LoggerFactory/getILoggerFactory))
+
+
 (defn logger-context-name
   "Return name of the specified or default logger-context."
   ([]
