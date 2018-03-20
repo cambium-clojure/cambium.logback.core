@@ -1,5 +1,11 @@
 # cambium.logback.core - TODO and Change Log
 
+## [WIP] 0.4.2 / 2018-March-??
+
+- [Todo] Upgrade Janino version to `3.0.8`
+- [Todo] Add fn to deinit Logback in `util.clj`
+
+
 ## 0.4.1 / 2017-October-26
 
 - Marker release (no change) just to sync with cambium.logback.* release
