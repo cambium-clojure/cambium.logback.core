@@ -4,6 +4,8 @@
 
 - Upgrade Janino version to `3.0.8`
 - [Todo] Add fn to deinit Logback in `util.clj`
+- Bump cambium.core and cambium.codec-simple dev dependency version to `0.9.2`
+  - [Todo] Use the GA version
 
 
 ## 0.4.1 / 2017-October-26
