@@ -21,15 +21,11 @@
 
 (defn logger-context-name
   "Return name of the specified or default logger-context."
-  ([]
-    (logger-context-name (LoggerFactory/getILoggerFactory)))
-  ([^LoggerContext logger-context]
-    (.getName logger-context)))
+  [^LoggerContext logger-context]
+  (.getName logger-context))
 
 
 (defn stop-logger-context
   "Stop the specified or default logger-context."
-  ([]
-    (stop-logger-context (LoggerFactory/getILoggerFactory)))
-  ([^LoggerContext logger-context]
-    (.stop logger-context)))
+  [^LoggerContext logger-context]
+  (.stop logger-context))
