@@ -1,6 +1,6 @@
 # cambium.logback.core - TODO and Change Log
 
-## [WIP] 0.4.2 / 2018-March-??
+## 0.4.2 / 2018-March-22
 
 - Upgrade Janino version to `3.0.8`
 - Add utility fns in `cambium.logback.core.util` namespace
