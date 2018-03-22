@@ -14,18 +14,24 @@
 
 
 (defn find-logger-context
-  "Return current logger-context."
+  "Return current/default logger-context."
   ^LoggerContext []
   (LoggerFactory/getILoggerFactory))
 
 
 (defn logger-context-name
-  "Return name of the specified or default logger-context."
+  "Return name of the specified logger-context."
   [^LoggerContext logger-context]
   (.getName logger-context))
 
 
+(defn start-logger-context
+  "Start the specified logger-context."
+  [^LoggerContext logger-context]
+  (.start logger-context))
+
+
 (defn stop-logger-context
-  "Stop the specified or default logger-context."
+  "Stop the specified logger-context."
   [^LoggerContext logger-context]
   (.stop logger-context))

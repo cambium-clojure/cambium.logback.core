@@ -6,6 +6,7 @@
 - Add utility fns in `cambium.logback.core.util` namespace
   - `find-logger-context` to find default logger-context
   - `logger-context-name` to find logger-context name
+  - `start-logger-context` to start logger-context
   - `stop-logger-context` to stop logger-context
 - Bump cambium.core and cambium.codec-simple dev dependency version to `0.9.2`
   - [Todo] Use the GA version
