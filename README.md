@@ -5,7 +5,7 @@ Core [Logback](https://logback.qos.ch/) backend for Cambium.
 
 ## Clojars coordinates
 
-`[cambium/cambium.logback.core "0.4.2"]`
+`[cambium/cambium.logback.core "0.4.3"]`
 
 
 ## Documentation
