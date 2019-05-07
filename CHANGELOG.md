@@ -1,5 +1,10 @@
 # cambium.logback.core - TODO and Change Log
 
+## [WIP] 0.4.3 / 2019-May-??
+
+- [Todo] Upgrade Janino to version `3.0.12`
+
+
 ## 0.4.2 / 2018-March-22
 
 - Upgrade Janino version to `3.0.8`
