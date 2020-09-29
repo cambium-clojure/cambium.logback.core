@@ -1,4 +1,4 @@
-(defproject cambium/cambium.logback.core "0.4.4-SNAPSHOT"
+(defproject cambium/cambium.logback.core "0.4.4"
   :description "Core Logback backend for Cambium"
   :url "https://github.com/cambium-clojure/cambium.logback.core"
   :license {:name "Eclipse Public License"

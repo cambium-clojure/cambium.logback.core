@@ -1,6 +1,6 @@
 # cambium.logback.core - TODO and Change Log
 
-## [WIP] 0.4.4 / 2020-September-??
+## 0.4.4 / 2020-September-30
 
 - Drop support for Clojure `1.5.x`
 - Update Janino to version `3.1.2`
