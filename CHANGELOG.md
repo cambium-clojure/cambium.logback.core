@@ -3,7 +3,7 @@
 ## [WIP] 0.4.4 / 2020-September-??
 
 - Drop support for Clojure `1.5.x`
-- [Todo] Update Janino to version `3.1.2`
+- Update Janino to version `3.1.2`
 
 
 ## 0.4.3 / 2019-May-07

@@ -3,7 +3,7 @@
   :url "https://github.com/cambium-clojure/cambium.logback.core"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.codehaus.janino/janino     "3.0.12"]  ; for conditional config processing
+  :dependencies [[org.codehaus.janino/janino     "3.1.2"]  ; for conditional config processing
                  [ch.qos.logback/logback-classic "1.2.3"]
                  [ch.qos.logback/logback-core    "1.2.3"]]
   :java-source-paths ["java-src"]
