@@ -1,6 +1,6 @@
 # cambium.logback.core - TODO and Change Log
 
-## [WIP] 0.4.5 / 2021-December-??
+## 0.4.5 / 2021-December-16
 
 - Update Logback version to 1.2.8
   - Fixes #2
