@@ -2,7 +2,7 @@
 
 ## [WIP] 0.4.5 / 2021-December-??
 
-- [Todo] Update Logback version
+- Update Logback version to 1.2.8
   - Fixes #2
 - Target cambium.core 1.1.1
 
