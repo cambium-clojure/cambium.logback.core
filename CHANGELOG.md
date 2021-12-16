@@ -4,7 +4,7 @@
 
 - [Todo] Update Logback version
   - Fixes #2
-- [Todo] Target cambium.core 1.1.0
+- Target cambium.core 1.1.1
 
 
 ## 0.4.4 / 2020-September-30

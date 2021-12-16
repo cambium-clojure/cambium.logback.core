@@ -12,7 +12,7 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :profiles {:provided {:dependencies [[org.clojure/clojure  "1.6.0"]]}
-             :dev {:dependencies [[cambium/cambium.core "1.0.0"]  ; pulls in [org.slf4j/slf4j-api "1.7.30"]
+             :dev {:dependencies [[cambium/cambium.core "1.1.1"]  ; pulls in [org.slf4j/slf4j-api "1.7.32"]
                                   [cambium/cambium.codec-simple "1.0.0"]]
                    :jvm-opts ["-Denable.dummy=true"]}
              :c06 {:dependencies [[org.clojure/clojure  "1.6.0"]]}
