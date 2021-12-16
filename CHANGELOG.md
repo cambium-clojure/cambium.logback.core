@@ -1,5 +1,12 @@
 # cambium.logback.core - TODO and Change Log
 
+## [WIP] 0.4.5 / 2021-December-??
+
+- [Todo] Update Logback version
+  - Fixes #2
+- [Todo] Target cambium.core 1.1.0
+
+
 ## 0.4.4 / 2020-September-30
 
 - Drop support for Clojure `1.5.x`
