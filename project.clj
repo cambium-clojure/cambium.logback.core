@@ -4,8 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.codehaus.janino/janino     "3.1.2"]  ; for conditional config processing
-                 [ch.qos.logback/logback-classic "1.2.8"]
-                 [ch.qos.logback/logback-core    "1.2.8"]]
+                 [ch.qos.logback/logback-classic "1.2.12"]
+                 [ch.qos.logback/logback-core    "1.2.12"]]
   :java-source-paths ["java-src"]
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
   :global-vars {*warn-on-reflection* true
