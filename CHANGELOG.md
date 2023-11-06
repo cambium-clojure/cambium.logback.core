@@ -1,5 +1,13 @@
 # cambium.logback.core - TODO and Change Log
 
+## 0.4.6 / 2023-November-06
+
+- Update Logback version to 1.2.12
+  - Fixes [CVE-2021-42550](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42550)
+  - Via https://github.com/cambium-clojure/cambium.logback.core/pull/4
+- Update Janino to version 3.1.10
+
+
 ## 0.4.5 / 2021-December-16
 
 - Update Logback version to 1.2.8
